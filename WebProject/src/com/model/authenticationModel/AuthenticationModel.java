@@ -8,13 +8,13 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 public class AuthenticationModel implements HandlerInterceptor{
-	private static Logger logger = Logger.getLogger("com.model.AuthenticationModel"); 
+	private static Logger logger = Logger.getLogger("com.model.authenticationModel.AuthenticationModel"); 
 	public boolean authenticationUser (HttpServletRequest req,HttpServletResponse res){
 		
 		logger.info("authenticationUser running");
 		
 		
-		return false;
+		return true;
 		
 	}
 

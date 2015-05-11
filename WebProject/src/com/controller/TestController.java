@@ -19,6 +19,7 @@ public class TestController {
 		String password=req.getParameter("password");
 		map.put("username",username);
 		map.put("password",password);
+		System.out.print("\n  model ");
 		req.setAttribute("model", map);
 		return "success";
 

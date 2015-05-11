@@ -13,18 +13,18 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:mvc-servlet.xml</param-value>
+			<param-value>classpath:recources/mvc-servlet.xml</param-value>
 		</init-param>
 	</servlet>
 	
-	<servlet>
+<!-- 	<servlet>
 		<servlet-name>springmvcajax</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<init-param>
+		<init-param>"src/com/ge/energy/icam/webservice/User.java"
 			<param-name>contextConfigLocation</param-name>
 			<param-value>classpath:ajaxmvc-servlet.xml</param-value>
 		</init-param>
-	</servlet>
+	</servlet> -->
 	
 	
 	<servlet-mapping>
@@ -32,10 +32,10 @@
 		<url-pattern>/htm/*</url-pattern>
 	</servlet-mapping>
 	
-	<servlet-mapping>
+<!-- 	<servlet-mapping>
 		<servlet-name>springmvcajax</servlet-name>
 		<url-pattern>/ajax/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 	
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
